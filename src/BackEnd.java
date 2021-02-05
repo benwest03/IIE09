@@ -16,8 +16,7 @@ public class BackEnd {
 	}
 
 	public String getBeerName(int x) {
-		String beerName = beers[x].getBeerName();
-		return beerName;
+		return beers[x].getBeerName();
 	}
 	
 	public float getBeerABV(int x) {
